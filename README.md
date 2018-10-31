@@ -1,4 +1,18 @@
-Related Issues:
+# Usage
+
+**Install**
+
+```sh
+npm install ie-class-inheritance-polyfill
+```
+
+**Import**
+
+```javascript
+import 'ie-class-inheritance-polyfill'
+```
+
+# Related Issues:
 - Babel
   - https://github.com/babel/babel/issues/116
   - https://github.com/babel/babel/issues/8050

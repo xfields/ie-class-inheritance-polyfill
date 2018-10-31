@@ -3,7 +3,7 @@
 **Install**
 
 ```sh
-npm install ie-class-inheritance-polyfill
+npm install ie-class-inheritance-polyfill --save
 ```
 
 **Import**

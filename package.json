@@ -1,6 +1,6 @@
 {
   "name": "ie-class-inheritance-polyfill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ie class inheritance polyfill",
   "main": "index.js",
   "scripts": {

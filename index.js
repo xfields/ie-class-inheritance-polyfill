@@ -2,7 +2,7 @@
 (function () {
   var testObject = {};
   if (!(Object.setPrototypeOf || testObject.__proto__)) {
-    // 参考：babel-plugin-transform-proto-to-assign
+    // babel-plugin-transform-proto-to-assign
     function protoToAssign(target, proto) {
       var keys = Object.getOwnPropertyNames(proto);
       for (var i = 0; i < keys.length; i++) {

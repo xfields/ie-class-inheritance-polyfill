@@ -1,0 +1,24 @@
+{
+  "name": "ie-class-inheritance-polyfill",
+  "version": "1.0.0",
+  "description": "ie class inheritance polyfill",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiefei89/ie-class-inheritance-polyfill.git"
+  },
+  "keywords": [
+    "IE",
+    "inheritance",
+    "polyfill"
+  ],
+  "author": "xfields",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiefei89/ie-class-inheritance-polyfill/issues"
+  },
+  "homepage": "https://github.com/xiefei89/ie-class-inheritance-polyfill#readme"
+}

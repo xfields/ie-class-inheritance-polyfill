@@ -4,7 +4,14 @@
   "description": "ie class inheritance polyfill",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transform": "babel example/src/ -d example/lib/ --no-babelrc --presets=env,stage-0"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-0"
+    ]
   },
   "repository": {
     "type": "git",
@@ -20,5 +27,10 @@
   "bugs": {
     "url": "https://github.com/xiefei89/ie-class-inheritance-polyfill/issues"
   },
-  "homepage": "https://github.com/xiefei89/ie-class-inheritance-polyfill#readme"
+  "homepage": "https://github.com/xiefei89/ie-class-inheritance-polyfill#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
 }

@@ -20,5 +20,5 @@ import 'ie-class-inheritance-polyfill'
 - React
   - https://github.com/facebook/react/issues/6929
 
-Related Pull Request:
- - https://github.com/babel/babel/pull/3527
+- Related Pull Request:
+  - https://github.com/babel/babel/pull/3527
